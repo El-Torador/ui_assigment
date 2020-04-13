@@ -31,7 +31,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "semantic-ui-css": "^2.4.1"
-  }
+  "devDependencies": {}
 }

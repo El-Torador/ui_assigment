@@ -1,5 +1,5 @@
 import React from 'react';
-import 'semantic-ui-css/semantic.min.css';
+import './App.css';
 import covid19ImpactEstimator from './estimator';
 
 function App() {
@@ -25,44 +25,49 @@ function App() {
       <h1>Form Estimation</h1>
       <form onSubmit={(e) => handleSubmit(e)} className="ui form">
         <div className="field">
-          <label htmlFor="population"> Population : </label>
+          <label> Population : </label>
           <input
             type="number"
-            id="population"
+            name="population"
+            title="Population"
             placeholder="Enter population number"
             data-population
           />
         </div>
         <div className="field">
-          <label htmlFor="timeToElapse">Time to elapse : </label>
+          <label>Time to elapse : </label>
           <input
             type="number"
-            id="timeToElapse"
+            name="timeToElapse"
+            title="Time to elapse"
             placeholder="Enter time to elapse"
             data-time-to-elapse
           />
         </div>
         <div className="field">
-          <label htmlFor="ReportedCases">Reported cases : </label>
+          <label>Reported cases : </label>
           <input
             type="number"
-            id="reportedCases"
+            name="reported Cases"
+            title="Reported cases"
             placeholder="Enter Repoted cases"
             data-reported-cases
           />
         </div>
         <div className="field">
-          <label htmlFor="totalHospitalBeds">Total hospital beds : </label>
+          <label>Total hospital beds : </label>
           <input
             type="number"
-            id="totalHospitalBeds"
+            name="totalHospitalBeds"
+            title="
+            Total hospital beds"
             placeholder="Enter total hospital beds"
             data-total-hospital-beds
           />
         </div>
         <div className="field">
-          <label htmlFor="periodType">Choise period type : </label>
-          <select id="periodType" data-period-type >
+          <label>Choise period type : </label>
+          <select name="periodType" data-period-type title="Period type" >
             <option value="days">days</option>
             <option value="weeks">weeks</option>
             <option value="months">months</option>
@@ -72,7 +77,7 @@ function App() {
         <div>
           <button
             type="submit"
-            className="ui button inverted fluid primary"
+            className="ui button fluid positive"
             data-go-estimate
           >
             Send
