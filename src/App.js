@@ -32,6 +32,7 @@ function App() {
             title="Population"
             placeholder="Enter population number"
             data-population
+            required
           />
         </div>
         <div className="field">
@@ -42,6 +43,7 @@ function App() {
             title="Time to elapse"
             placeholder="Enter time to elapse"
             data-time-to-elapse
+            required
           />
         </div>
         <div className="field">
@@ -52,6 +54,7 @@ function App() {
             title="Reported cases"
             placeholder="Enter Repoted cases"
             data-reported-cases
+            required
           />
         </div>
         <div className="field">
@@ -63,6 +66,7 @@ function App() {
             Total hospital beds"
             placeholder="Enter total hospital beds"
             data-total-hospital-beds
+            required
           />
         </div>
         <div className="field">
