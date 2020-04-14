@@ -21,7 +21,7 @@ function App() {
     console.log(covid19ImpactEstimator(data));
   };
   return (
-    <div className="ui container">
+    <div className="container">
       <h1>Covid-<span>19</span> Estimator</h1>
       <form onSubmit={(e) => handleSubmit(e)} className="ui form">
         <div className="field">
