@@ -22,7 +22,7 @@ function App() {
   };
   return (
     <div className="ui container">
-      <h1>Form Estimation</h1>
+      <h1>Covid-<span>19</span> Estimator</h1>
       <form onSubmit={(e) => handleSubmit(e)} className="ui form">
         <div className="field">
           <label> Population : </label>
@@ -88,6 +88,11 @@ function App() {
           </button>
         </div>
       </form>
+      <br/>
+      <div>
+        <h5>Build by Jordan Kagmeni</h5> 
+        <h5>Inspired by facebook DevC & Andela</h5>
+      </div>
     </div>
   );
 }
