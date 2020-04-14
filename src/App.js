@@ -81,10 +81,10 @@ function App() {
         <div>
           <button
             type="submit"
-            className="ui button fluid positive"
+            className="ui button positive"
             data-go-estimate
           >
-            Send
+            Estimate
           </button>
         </div>
       </form>
